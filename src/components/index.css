@@ -1,0 +1,12 @@
+#title{ 
+    color: blue;
+}
+p{
+    padding-left: 5px;
+    display: inline-block;
+    padding-right: 5px;
+}
+button{
+    margin-left: 5px;
+    
+}

@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import Node from './components/treeview';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  window.id = 0;
+  return(
+    
+    <div id="container">
+      <h2>Tree Data Visualization</h2>
+    <Node title='root' level={0} removeNode={()=>{}} />
     </div>
+    
   );
 }
 
